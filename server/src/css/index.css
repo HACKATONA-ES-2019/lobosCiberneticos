@@ -19,7 +19,6 @@ body{
 }
 .shadow{
     -webkit-box-shadow: 0 7px 4px #777;
-	-moz-box-shadow: 0 7px 4px #777;
 	box-shadow: 0 7px 4px #777;
 }
 .header{
@@ -30,11 +29,11 @@ body{
     height:100%;
 }
 .d-flex{
-    /* -webkit-justify-content: space-between !important;
-    -webkit-align-content: center !important; */
+    -webkit-justify-content: space-between !important;
+    -webkit-align-content: center !important; 
     padding : 25px;
 }
 .card{
     width:30%;
-    margin-bottom:32px;
+    margin-bottom:18%;
 }
