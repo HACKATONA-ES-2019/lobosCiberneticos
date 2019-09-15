@@ -16,27 +16,31 @@
 }
 .card{
     width:30%;
+    margin-bottom: 55%;
 }
-@media (max-width: 34em) {
+/* @media (max-width: 34em) {
     .card{
         width:80%;
+        margin-bottom: 70%;
     }
 }
 @media (max-width: 48em) {
     .card{
         width:80%;
-        margin-bottom: 55%;
+        margin-bottom: 70%;
     }
 }
 
-@media (min-width: 62em) {
+@media (max-width: 62em) {
     .card{
-        width:30%;
+        width:80%;
+        margin-bottom: 70%;
     }
-}
+} */
 
-@media (min-width: 75em) {
+@media (max-width: 75em) {
     .card{
-        width:30%;
+        width:80%;
+        margin-bottom: 70%;
     }
 }
