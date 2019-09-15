@@ -29,33 +29,34 @@
 19-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:9:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:10:9-35
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="org.correntesolidaria.MainActivity" >
-22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:9-18:20
-22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:19-47
-23            <intent-filter>
-23-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:13:13-17:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:17-69
-24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:17-77
-26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <provider
-30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-32            android:authorities="org.correntesolidaria.lifecycle-process"
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-33            android:exported="false"
-33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-34            android:multiprocess="true" />
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-35    </application>
-36
-37</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="org.correntesolidaria.MainActivity" >
+23-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:9-18:20
+23-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:19-47
+24            <intent-filter>
+24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:17-69
+25-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:17-77
+27-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+33            android:authorities="org.correntesolidaria.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+36    </application>
+37
+38</manifest>
