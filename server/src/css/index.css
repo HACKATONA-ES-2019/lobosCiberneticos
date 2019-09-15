@@ -17,7 +17,7 @@
 .card{
     display: block;
     width:30%;
-    margin-bottom: 2%;
+    margin-bottom: 20%;
     margin: 0 auto;
 }
 /* @media (max-width: 34em) {
@@ -44,11 +44,5 @@
     .card{
         width:80%;
         /* margin-bottom: 100%; */
-    }
-    .d-flex{
-        -webkit-justify-content: center !important;
-        -webkit-align-content: center !important; 
-        justify-content: center !important;
-        align-content: center !important; 
     }
 }
