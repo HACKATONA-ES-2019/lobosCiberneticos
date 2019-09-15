@@ -10,44 +10,52 @@
 9        android:targetSdkVersion="28" />
 9-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:5:5-23:19
-12        android:allowBackup="true"
-12-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity
-20-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:9-22:20
-21            android:name="org.correntesolidaria.FullscreenActivity"
-21-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:13:13-47
-22            android:configChanges="orientation|keyboardHidden|screenSize"
-22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:13-74
-23            android:label="@string/app_name"
-23-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:15:13-45
-24            android:theme="@style/FullscreenTheme" >
-24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:13-51
-25            <intent-filter>
-25-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:17:13-21:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:18:17-69
-26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:18:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:20:17-77
-28-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:20:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:20:5-67
+11-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:20:22-64
+12
+13    <application
+13-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:5:5-19:19
+14        android:allowBackup="true"
+14-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:10:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="org.correntesolidaria.MainActivity" >
+22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:9-18:20
+22-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:12:19-47
+23            <intent-filter>
+23-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:17-69
+24-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:17-77
+26-->C:\Users\someo\Desktop\lobosCiberneticos\client\app\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <provider
+30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+32            android:authorities="org.correntesolidaria.lifecycle-process"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+33            android:exported="false"
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+34            android:multiprocess="true" />
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\someo\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+35    </application>
+36
+37</manifest>
