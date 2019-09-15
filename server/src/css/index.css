@@ -9,14 +9,16 @@
     border-radius: 45px;    
 }
 .d-flex{
-    -webkit-justify-content: space-between !important;
+    -webkit-justify-content: center !important;
     -webkit-align-content: center !important; 
     justify-content: center !important;
     align-content: center !important; 
 }
 .card{
+    display: block;
     width:30%;
-    margin-bottom: 55%;
+    margin-bottom: 2%;
+    margin: 0 auto;
 }
 /* @media (max-width: 34em) {
     .card{
@@ -41,6 +43,12 @@
 @media (max-width: 75em) {
     .card{
         width:80%;
-        margin-bottom: 100%;
+        /* margin-bottom: 100%; */
+    }
+    .d-flex{
+        -webkit-justify-content: center !important;
+        -webkit-align-content: center !important; 
+        justify-content: center !important;
+        align-content: center !important; 
     }
 }
