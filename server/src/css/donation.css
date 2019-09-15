@@ -4,14 +4,3 @@
 .col-sm-2{
     width: 5%;
 }
-.shadow{
-    -webkit-box-shadow: 0 7px 4px #777;
-	box-shadow: 0 7px 4px #777;
-}
-.header{
-    font-weight: bold;
-}
-.bg-green{
-    background-color: #9bcf79;
-    border-color: #ade687;
-}

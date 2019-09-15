@@ -1,52 +1,12 @@
-@import "compass/css3";
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-.flex-item {
-  height: 150px;
-  margin-top: 60px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
 .event-icon{
     width: 100;
     height: 100%;
     border-radius: 2px;
 }
-p {
-    font-size: initial;
-    margin-top: 5px;
-    color: black;
-    margin-bottom: 1rem;
-}
 .profile-bg{
     background-color:white;
     padding: 5px;
     border-radius: 45px;    
-}
-.shadow{
-    -webkit-box-shadow: 0 7px 4px #777;
-	box-shadow: 0 7px 4px #777;
-}
-.header{
-    font-weight: bold;
-}
-.card img{
-    width: 100%;
-    height:100%;
 }
 .d-flex{
     -webkit-justify-content: space-between !important;
@@ -56,8 +16,4 @@ p {
 .card{
     width:30%;
     margin-bottom:18%;
-}
-.bg-green{
-    background-color: #9bcf79;
-    border-color: #ade687;
 }
