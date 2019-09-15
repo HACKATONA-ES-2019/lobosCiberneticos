@@ -10,31 +10,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/general.css">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <div class="container p-0">
+    <div class="container-fluid p-0">
         <div class="form-group bg-green p-4 w-100 shadow">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search">
-                <img class="ml-3 profile-bg" src="../../open-iconic-master/png/person-8x.png" width="40" height="40" />
+                <a href="profile.html">
+                    <img src="../../open-iconic-master/png/person-8x.png" width="40" class="ml-3 profile-bg" />
+                </a>
             </div>
         </div>
         <h3 class="header ml-5 mb-4">
             Escolha seu local de doação
         </h3>
         <div class='d-flex flex-row flex-wrap justify-content-between'>
-            <div class="card shadow" >
+            <div class="card shadow">
                 <img class="event-icon  card-img-top" src="../images/Amazônia.jpg" />
                 <div class="card-body">
                     <h5 class="card-title header">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#" class="btn btn-primary bg-green float-right">Go somewhere</a>
+                    <a href="eventScreen.html" class="btn btn-primary bg-green float-right">Go somewhere</a>
                 </div>
             </div>
-            <div class="card shadow" >
+            <div class="card shadow">
                 <img class="event-icon  card-img-top" src="../images/brumadinho.jpg" />
                 <div class="card-body">
                     <h5 class="card-title header">Card title</h5>
@@ -43,16 +46,7 @@
                     <a href="#" class="btn btn-primary bg-green float-right">Go somewhere</a>
                 </div>
             </div>
-            <div class="card shadow" >
-                <img class="event-icon card-img-top" src="../images/kiss.jpg" />
-                <div class="card-body">
-                    <h5 class="card-title header">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary bg-green float-right">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card shadow" >
+            <div class="card shadow">
                 <img class="event-icon card-img-top" src="../images/kiss.jpg" />
                 <div class="card-body">
                     <h5 class="card-title header">Card title</h5>
@@ -63,6 +57,8 @@
             </div>
         </div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
