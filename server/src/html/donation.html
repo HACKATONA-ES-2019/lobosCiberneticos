@@ -27,15 +27,11 @@
         <div class="form-horizontal clearfix p-4">
             <div class="form-group border-bottom border-top p-4 align-middle">
                 <span class="col-sm-2 text-left" > Roupas :</span>
-                <input class="form-control float-right col-sm-2" name="roupa" type="number"  />
+                <input class="form-control float-right col-sm-2" name="roupa" type="number"  min="0"/>
             </div>
             <div class="form-group  border-bottom border-top p-4">
             <span class="col-sm-2 text-left" > Comida :</span>
             <input class="form-control float-right  col-sm-2"  name="comida" type="number" />
-            </div>
-            <div class="form-group  border-bottom border-top p-4">
-                <span class="col-sm-2 text-left"> Eletrodoméstico :</span>
-                <input class="form-control float-right  col-sm-2"  name="eletro"type="number" />
             </div>
             <button type="button" onclick="setInfo()" class="float-right">
                 Butam
@@ -43,14 +39,34 @@
         </div>
     </div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
 <script>
     function setInfo(){
-        let roupas = document.getElementsByName("roupa")[0].value;
-        let eletro = document.getElementsByName("eletro")[0].value;
-        let comida = document.getElementsByName("comida")[0].value;
-        alert(roupas);
-        alert(eletro);
-        alert(comida);
-    }
+    const firebaseConfig = {
+        apiKey: "AIzaSyAQ9tT-b2WCNjGJU8L_ohWC8190GsAyedg",
+        authDomain: "lobosciberneticos-ed171.firebaseapp.com",
+        databaseURL: "https://lobosciberneticos-ed171.firebaseio.com",
+        projectId: "lobosciberneticos-ed171",
+        storageBucket: "",
+        messagingSenderId: "780197088605",
+        appId: "1:780197088605:web:9c0861614529d4d406acb4"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+    //var name = mainText.value;
+    var firebaseRef = firebase.database().ref();
+
+    let roupa = document.getElementsByName("roupa")[0].value;
+    let comida = document.getElementsByName("comida")[0].value;
+    firebaseRef.child("doadores").child("doacoes").child("roupas").set(roupa);
+    firebaseRef.child("doadores").child("doacoes").child("comidas").set(comida);
+
+
+
+  }
 </script>
 </html>

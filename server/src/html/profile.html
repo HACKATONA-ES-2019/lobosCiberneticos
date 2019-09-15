@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="../css/profile.css">
     <script src="main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
 </head>
-<body>
+
+<body onload="getData()">
     <div class="container">
         <div class="row pt-4 mb-5">
             <div class="col-md-12">
-                <img src="../../open-iconic-master/png/person-8x.png"  width="80"/>
+                <img src="../../open-iconic-master/png/person-8x.png" width="80" />
                 <h2 class="d-inline ml-4"> Lobo Cibernético</h2>
             </div>
         </div>
@@ -26,20 +30,47 @@
                     Brumadinho
                 </h5>
                 <div>
-                    <span class="ml-5"> 2 Peças de roupas</span>
+                    <span class="ml-5"> <span id="roupas">2</span> Peças de roupas</span>
                     <span class="float-right mr-4"> A ser entregue</span>
                 </div>
             </li>
             <li class="w-100 mb-3">
-                    <h5 class="ml-3">
-                        Brumadinho
-                    </h5>
-                    <div>
-                        <span class="ml-5"> 2 Peças de roupas</span>
-                        <span class="float-right mr-4"> A ser entregue</span>
-                    </div>
-                </li>
+                <h5 class="ml-3">
+                    Brumadinho
+                </h5>
+                <div>
+                    <span class="ml-5"> <span id="comidas">2</span> Comidas</span>
+                    <span class="float-right mr-4"> A ser entregue</span>
+                </div>
+            </li>
         </ul>
     </div>
 </body>
+<script>
+    function getData() {
+        const firebaseConfig = {
+            apiKey: "AIzaSyAQ9tT-b2WCNjGJU8L_ohWC8190GsAyedg",
+            authDomain: "lobosciberneticos-ed171.firebaseapp.com",
+            databaseURL: "https://lobosciberneticos-ed171.firebaseio.com",
+            projectId: "lobosciberneticos-ed171",
+            storageBucket: "",
+            messagingSenderId: "780197088605",
+            appId: "1:780197088605:web:9c0861614529d4d406acb4"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+
+        var firebaseGetR = firebase.database().ref().child("doadores").child("doacoes").child("roupas");
+        var firebaseGetC = firebase.database().ref().child("doadores").child("doacoes").child("comidas");
+
+            firebaseGetR.on('value', function (datasnapshot) {
+                document.getElementById("roupas").innerText = datasnapshot.val();
+            });
+            firebaseGetC.on('value', function (datasnapshot) {
+                document.getElementById("comidas").innerText = datasnapshot.val();
+            });
+    }
+</script>
+
 </html>
