@@ -4,3 +4,8 @@
     border-radius:20px;
     margin: 10px;
 }
+
+.latest-articles .author img {
+    border: 2px solid #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
