@@ -156,12 +156,12 @@
         "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
-        "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -380,6 +380,10 @@
         "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material_anim.xml.flat",
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
     },
@@ -446,6 +450,10 @@
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -876,12 +884,20 @@
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
@@ -982,6 +998,10 @@
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\someo\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\someo\\Desktop\\lobosCiberneticos\\client\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
