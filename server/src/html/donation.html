@@ -26,11 +26,11 @@
         <div class="form-horizontal clearfix p-4">
             <div class="form-group border-bottom border-top p-4 align-middle">
                 <span class="col-sm-2 text-left" > Roupas :</span>
-                <input class="form-control float-right col-sm-2" name="roupa" type="number"  min="0"/>
+                <input class="form-control float-right col-sm-2" name="roupa" type="number"  min="0" value="0"/>
             </div>
             <div class="form-group  border-bottom border-top p-4">
             <span class="col-sm-2 text-left" > Comida :</span>
-            <input class="form-control float-right  col-sm-2"  name="comida" type="number" />
+            <input class="form-control float-right  col-sm-2"  name="comida" type="number" min="0" value="0"/>
             </div>
             <button type="button" onclick="setInfo()" class="float-right">
                 Fazer entrega
@@ -64,8 +64,9 @@
     let comida = document.getElementsByName("comida")[0].value;
     firebaseRef.child("doadores").child("doacoes").child("roupas").set(roupa);
     firebaseRef.child("doadores").child("doacoes").child("comidas").set(comida);
-
-
+    setTimeout(function(){
+    window.location.href = 'profile.html';
+    }, 1000);
 
   }
 </script>

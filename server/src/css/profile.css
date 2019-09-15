@@ -27,3 +27,8 @@ body{
 .border-bottom2{
     box-shadow: 0 4px 2px -3px;
 }  
+.profile-bg{
+    background-color:white;
+    padding: 5px;
+    border-radius: 45px;    
+}
