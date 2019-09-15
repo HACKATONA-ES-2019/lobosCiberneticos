@@ -1,6 +1,33 @@
-.event-icon{
-    width: 25%;
-    height: 25%;
-    border-radius:20px;
-    margin: 10px;
+*{
+    font-family: 'Oswald', sans-serif; 
+}
+body{
+    background:whitesmoke;
+    /* background: url("../../src/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.container{
+    background: white;
+    height: 100vh;
+}
+.profile-bg{
+    background-color:white;
+    padding: 5px;
+    border-radius: 45px;    
+}
+.shadow{
+    -webkit-box-shadow: 0 7px 4px #777;
+	-moz-box-shadow: 0 7px 4px #777;
+	box-shadow: 0 7px 4px #777;
+}
+.header{
+    font-weight: bold;
+}
+.card img{
+    width: 100%;
+    height:100%;
+}
+.d-flex{
+    justify-content: space-around !important;
 }
