@@ -9,7 +9,7 @@ body{
 }
 .container{
     background: white;
-    height: 100vh;
+    height: 100%;
 }
 .profile-bg{
     background-color:white;
@@ -29,5 +29,10 @@ body{
     height:100%;
 }
 .d-flex{
-    justify-content: space-around !important;
+    justify-content: flex-start !important;
+    align-content: center;
+}
+.card{
+    width:30%;
+    margin-bottom:32px;
 }
