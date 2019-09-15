@@ -1,6 +1,44 @@
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  height: 150px;
+  margin-top: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
 .event-icon{
-    width: 25%;
-    height: 25%;
-    border-radius:20px;
-    margin: 10px;
+    width: 100;
+    height: 100%;
+    border-radius: 2px;
+}
+.test{
+    justify-content: space-between;
+}
+.latest-articles .author img {
+    border: 2px solid #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
+p {
+    font-size: initial;
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 1rem;
 }
