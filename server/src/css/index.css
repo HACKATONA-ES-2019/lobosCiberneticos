@@ -3,7 +3,12 @@
 }
 body{
     background:whitesmoke;
+<<<<<<< HEAD
      background: url("../../src/images/background.jpg");
+=======
+    height:100%;
+    background: url("../../src/images/background.jpg");
+>>>>>>> 1fe79a3f7a90d35d85841bad12e31cdcfc093576
     background-size: cover;
     background-repeat: no-repeat; 
 }
@@ -29,8 +34,8 @@ body{
     height:100%;
 }
 .d-flex{
-    justify-content: space-between !important;
-    align-content: center;
+    /* -webkit-justify-content: space-between !important;
+    -webkit-align-content: center !important; */
     padding : 25px;
 }
 .card{
