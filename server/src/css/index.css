@@ -3,12 +3,8 @@
 }
 body{
     background:whitesmoke;
-<<<<<<< HEAD
-     background: url("../../src/images/background.jpg");
-=======
     height:100%;
     background: url("../../src/images/background.jpg");
->>>>>>> 1fe79a3f7a90d35d85841bad12e31cdcfc093576
     background-size: cover;
     background-repeat: no-repeat; 
 }
@@ -44,4 +40,5 @@ body{
 }
 .bg-green{
     background-color: #9bcf79;
+    border-color: #ade687;
 }
