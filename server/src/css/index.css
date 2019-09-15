@@ -11,9 +11,32 @@
 .d-flex{
     -webkit-justify-content: space-between !important;
     -webkit-align-content: center !important; 
-    padding : 25px;
+    justify-content: center !important;
+    align-content: center !important; 
 }
 .card{
     width:30%;
-    margin-bottom:18%;
+}
+@media (max-width: 34em) {
+    .card{
+        width:80%;
+    }
+}
+@media (max-width: 48em) {
+    .card{
+        width:80%;
+        margin-bottom: 55%;
+    }
+}
+
+@media (min-width: 62em) {
+    .card{
+        width:30%;
+    }
+}
+
+@media (min-width: 75em) {
+    .card{
+        width:30%;
+    }
 }
