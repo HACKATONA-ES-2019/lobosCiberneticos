@@ -3,9 +3,10 @@
 }
 body{
     background:whitesmoke;
-    /* background: url("../../src/images/background.jpg");
+    height:100%;
+    background: url("../../src/images/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 .container{
     background: white;
@@ -29,8 +30,8 @@ body{
     height:100%;
 }
 .d-flex{
-    justify-content: space-between !important;
-    align-content: center;
+    /* -webkit-justify-content: space-between !important;
+    -webkit-align-content: center !important; */
     padding : 25px;
 }
 .card{
