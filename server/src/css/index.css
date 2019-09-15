@@ -3,9 +3,9 @@
 }
 body{
     background:whitesmoke;
-    /* background: url("../../src/images/background.jpg");
+     background: url("../../src/images/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 .container{
     background: white;
@@ -36,4 +36,7 @@ body{
 .card{
     width:30%;
     margin-bottom:32px;
+}
+.bg-green{
+    background-color: #9bcf79;
 }
